@@ -4,6 +4,8 @@
   background-image: url("./mainBackground.png");
 } */
 .contact-content {
+  border: solid 1px red;
+  background: rgba(0, 0, 0, 0.8);
   height:100%;
   height: 100%;
   

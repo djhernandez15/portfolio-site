@@ -10,18 +10,18 @@ class App extends Component {
     return (
       <div className="demo-big-content">
     <Layout>
-    <Header style={{background:this.props.location.pathname === "/" ||this.props.location.pathname === "/contact"? "transparent":"black"}}className="header-color" title={<Link style={{textDecoration: 'none', color: 'aqua',fontSize:"50px",fontFamily: 'Alfa Slab One'}} to="/">N M</Link>} scroll>
+    <Header style={{background:this.props.location.pathname === "/" ||this.props.location.pathname === "/contact"? "transparent":"black"}}className="header-color" title={<Link style={{textDecoration: 'none', color: '#C89435',fontSize:"50px",fontFamily: 'Alfa Slab One'}} to="/">DH</Link>} scroll>
            
             <Navigation>
 
-                <Link style={{ fontSize:"20px" , color: 'aqua'}} to="/resume">Resume</Link>
-                <Link style={{fontSize:"20px", color: 'aqua'}} to="/projects">Projects</Link>
-                <Link style={{fontSize:"20px", color: 'aqua'}} to="/contact">Contact</Link>
+                <Link style={{ fontSize:"20px" , color: '#C89435'}} to="/resume">Resume</Link>
+                <Link style={{fontSize:"20px", color: '#C89435'}} to="/projects">Projects</Link>
+                <Link style={{fontSize:"20px", color: '#C89435'}} to="/contact">Contact</Link>
             </Navigation>
         </Header>
       
         
-        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Neaj Mahmud</Link>}>
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">David Hernandez</Link>}>
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/projects">Projects</Link>
